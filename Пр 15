@@ -20,3 +20,9 @@ print(f"Местонахождение выхода: {row1, column1}")
 print("Задание 1.4")
 distance = abs(row - row1)+abs(column - column1)
 print(distance)
+print("Задание 1.5")
+count = 0
+for i in symbols:
+    if "м" in i:
+        count += 1
+print(f"{"🪙"*count}")
